@@ -4,7 +4,7 @@ In this tutorial, you will learn how to build a Serverless application for speec
 
 [Amazon Transcribe](https://docs.aws.amazon.com/transcribe/latest/dg/what-is.html?sc_channel=el&sc_campaign=datamlwave&sc_content=audio-to-text-transcribe-lambda-golang&sc_geo=mult&sc_country=mult&sc_outcome=acq) is a service that utilizes machine learning models to convert speech to text automatically. It offers various features that can enhance the accuracy of the transcribed text, such as language customization, content filtering, multi-channel audio analysis, and individual speaker speech partitioning. Amazon Transcribe can be used as a standalone transcription service or to add speech-to-text capabilities to any application. You can transcribe media in real time (streaming) or you can transcribe media files located in an [Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html?sc_channel=el&sc_campaign=datamlwave&sc_content=audio-to-text-transcribe-lambda-golang&sc_geo=mult&sc_country=mult&sc_outcome=acq) bucket (batch).
 
-![](diagram.png)
+![High level architecture](diagram.png)
 
 Here is how the application works:
 
